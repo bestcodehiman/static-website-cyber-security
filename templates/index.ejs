@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="css/tacit-css.min.css"/>
+    <title>Our Website</title>
+    <style>
+      body {
+        padding-top:0px;
+      }
+      section {
+	    margin-top:20px;
+	  }
+      #our-website-button {
+        padding-bottom:10px;
+      }
+      #actions form {
+        padding-left: 10px;
+        display:inline;
+		margin-top:20px;
+		margin-left:60px;
+      }
+    </style>
+
+  <script src="js/search.js"></script>
+  </head>
+  <body>
+    <section>
+      <h1 style="margin-top:5px">Personal Website</h1>
+    </section>
+    <section id="our-website-button">
+        <form method="post" action="personalwebsite">
+          <button type="submit">Personal Website Button</button>
+          <p><%= typeof purchaseMessage !== 'undefined' ? purchaseMessage : ''%></p>
+        </form>  
+      </div>
+    </section>
+  </body>
+</html>

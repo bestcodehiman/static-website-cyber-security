@@ -1,7 +1,7 @@
 {
   "name": "xss-sample-app",
   "version": "1.0.0",
-  "description": "A sample environment to test XSS vulnerability. Nothing forgattable added Third message",
+  "description": "A sample environment to test XSS vulnerability.Adding 2nd message in this context.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
